@@ -87,3 +87,9 @@ order by
 
 ## replace tispark jar
 build from [source](https://github.com/pingcap/tispark) and replace the jar(jars/tispark-core-2.1-SNAPSHOT-jar-with-dependencies.jar).
+
+## docker command
+```
+# attach to zeppelin instance
+docker exec -it tisparkwithzeppelindockercompose_zeppelin_1 /bin/bash
+```
